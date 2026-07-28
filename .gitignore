@@ -1,0 +1,8 @@
+salida_ocr/
+__pycache__/
+*.png
+*.md
+!.github/*.md
+!README.md
+.vscode/
+.idea/

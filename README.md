@@ -1,6 +1,3 @@
-Aquí tienes el código **RAW (texto plano puro)** del `README.md`. Solo haz clic en el botón de copiar en la esquina superior derecha del bloque de código y pégalo directamente en tu archivo `README.md`:
-
-````markdown
 # 🔍 Real-Time Screen OCR & Translator Overlay
 
 Una aplicación en Python que captura una región redimensionable de la pantalla en tiempo real, extrae texto mediante Inteligencia Artificial con el modelo **Baidu Unlimited-OCR** y muestra la traducción traducida al instante sobre una ventana transparente (_overlay_).
@@ -37,6 +34,7 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
    git clone [https://github.com/LuisMauricioBM/screen-ocr-translator.git](https://github.com/LuisMauricioBM/screen-ocr-translator.git)
    cd screen-ocr-translator
    ```
+
 ````
 
 2. Instala las dependencias necesarias:
@@ -79,3 +77,4 @@ Este proyecto está bajo la [Licencia MIT](https://www.google.com/search?q=LICEN
 ```
 
 ```
+````

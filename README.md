@@ -30,39 +30,38 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
 ### Pasos de Instalación
 
 1. Clona este repositorio:
+
    ```bash
    git clone [https://github.com/LuisMauricioBM/screen-ocr-translator.git](https://github.com/LuisMauricioBM/screen-ocr-translator.git)
    cd screen-ocr-translator
    ```
 
-````
-
 2. Instala las dependencias necesarias:
 
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
-```
+   ```
 
 ---
 
 ## 🚀 Uso
 
-Ejecuta el programa desde la terminal:
+3. Ejecuta el programa desde la terminal:
 
 ```bash
 python main.py
 
 ```
 
-1. Espera unos segundos a que el modelo cargue en la tarjeta de video (`Modelo cargado. Iniciando overlay...`).
-2. Mueve la barra gris superior para ubicar el área de lectura sobre el texto que deseas traducir.
-3. Arrastra la esquina inferior derecha si necesitas hacer el área de captura más grande o pequeña.
-4. El texto traducido aparecerá automáticamente en el recuadro cada 1.5 segundos.
+1.  Espera unos segundos a que el modelo cargue en la tarjeta de video (`Modelo cargado. Iniciando overlay...`).
+2.  Mueve la barra gris superior para ubicar el área de lectura sobre el texto que deseas traducir.
+3.  Arrastra la esquina inferior derecha si necesitas hacer el área de captura más grande o pequeña.
+4.  El texto traducido aparecerá automáticamente en el recuadro cada 1.5 segundos.
 
 ---
 
-## 🙏 Créditos y Agradecimientos
+4.  🙏 Créditos y Agradecimientos
 
 - **Modelo OCR:** Desarrollado por **Baidu** — [`baidu/Unlimited-OCR`](https://huggingface.co/baidu/Unlimited-OCR)
 - **Traducción:** [`deep-translator`](https://github.com/nidhaloff/deep-translator)
@@ -70,11 +69,6 @@ python main.py
 
 ---
 
-## 📜 Licencia
+5. 📜 Licencia
 
 Este proyecto está bajo la [Licencia MIT](https://www.google.com/search?q=LICENSE).
-
-```
-
-```
-````

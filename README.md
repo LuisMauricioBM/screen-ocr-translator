@@ -54,6 +54,14 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
 
      ```
 
+> 💡 **¿Error de ejecución de scripts en PowerShell?**
+> Si Windows te bloquea al activar el entorno (`...el archivo no se puede cargar porque la ejecución de scripts está deshabilitada...`), ejecuta este comando antes en tu consola:
+>
+> ```powershell
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+>
+> ```
+
 3. **Instala PyTorch con soporte para GPU (CUDA):**
 
    ```bash

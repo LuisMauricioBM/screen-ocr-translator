@@ -65,7 +65,7 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
 3. **Instala PyTorch con soporte para GPU (CUDA):**
 
    ```bash
-   pip install torch --index-url https://download.pytorch.org/whl/cu121
+   pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu129
 
    ```
 

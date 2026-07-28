@@ -5,3 +5,5 @@ mss
 deep-translator
 addict
 matplotlib
+easydict
+einops

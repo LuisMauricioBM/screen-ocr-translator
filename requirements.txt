@@ -3,3 +3,5 @@ transformers
 pillow
 mss
 deep-translator
+addict
+matplotlib

@@ -29,14 +29,39 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
 
 ### Pasos de Instalación
 
-1. Clona este repositorio:
+1. **Clona este repositorio:**
 
    ```bash
-   git clone https://github.com/LuisMauricioBM/screen-ocr-translator.git
+   git clone [https://github.com/LuisMauricioBM/screen-ocr-translator.git](https://github.com/LuisMauricioBM/screen-ocr-translator.git)
    cd screen-ocr-translator
+
    ```
 
-2. Instala las dependencias necesarias:
+2. **Crea y activa un entorno virtual (Recomendado):**
+   - En **Windows (PowerShell):**
+
+     ```powershell
+     python -m venv .venv
+     .\.venv\Scripts\Activate.ps1
+
+     ```
+
+   - En **Windows (CMD):**
+
+     ```cmd
+     python -m venv .venv
+     .venv\Scripts\activate.bat
+
+     ```
+
+3. **Instala PyTorch con soporte para GPU (CUDA):**
+
+   ```bash
+   pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+   ```
+
+4. **Instala el resto de las dependencias necesarias:**
 
    ```bash
    pip install -r requirements.txt
@@ -45,19 +70,19 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
 
 ---
 
-🚀 Uso
+## 🚀 Uso
 
-3. Ejecuta el programa desde la terminal:
+1. **Ejecuta el programa desde la terminal:**
 
    ```bash
    python main.py
 
    ```
 
-1. Espera unos segundos a que el modelo cargue en la tarjeta de video (`Modelo cargado. Iniciando overlay...`).
-1. Mueve la barra gris superior para ubicar el área de lectura sobre el texto que deseas traducir.
-1. Arrastra la esquina inferior derecha si necesitas hacer el área de captura más grande o pequeña.
-1. El texto traducido aparecerá automáticamente en el recuadro cada 1.5 segundos.
+2. Espera unos segundos a que el modelo cargue en la tarjeta de video (`Modelo cargado. Iniciando overlay...`).
+3. Mueve la barra gris superior para ubicar el área de lectura sobre el texto que deseas traducir.
+4. Arrastra la esquina inferior derecha si necesitas hacer el área de captura más grande o pequeña.
+5. El texto traducido aparecerá automáticamente en el recuadro cada 1.5 segundos.
 
 ---
 

@@ -24,7 +24,7 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
 ### Prerrequisitos
 
 - **Sistema Operativo:** Windows
-- **Python:** 3.10 o superior
+- **Python:** 3.10 en adelante (Recomendado 3.12 - 3.13)
 - **Hardware:** Tarjeta gráfica NVIDIA con soporte para CUDA (requerido para PyTorch)
 
 ### Pasos de Instalación
@@ -32,7 +32,7 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
 1. **Clona este repositorio:**
 
    ```bash
-   git clone [https://github.com/LuisMauricioBM/screen-ocr-translator.git](https://github.com/LuisMauricioBM/screen-ocr-translator.git)
+   git clone https://github.com/LuisMauricioBM/screen-ocr-translator.git
    cd screen-ocr-translator
 
    ```

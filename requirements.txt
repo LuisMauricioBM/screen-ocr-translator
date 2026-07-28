@@ -1,9 +1,9 @@
-torch
-transformers
-pillow
-mss
-deep-translator
-addict
-matplotlib
-easydict
-einops
+pip install transformers==4.57.1
+pip install pillow
+pip install matplotlib
+pip install einops
+pip install addict
+pip install easydict
+pip install pymupdf
+pip install psutil
+pip install mss

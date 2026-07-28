@@ -32,7 +32,7 @@ Una aplicación en Python que captura una región redimensionable de la pantalla
 1. Clona este repositorio:
 
    ```bash
-   git clone [https://github.com/LuisMauricioBM/screen-ocr-translator.git](https://github.com/LuisMauricioBM/screen-ocr-translator.git)
+   git clone https://github.com/LuisMauricioBM/screen-ocr-translator.git
    cd screen-ocr-translator
    ```
 
